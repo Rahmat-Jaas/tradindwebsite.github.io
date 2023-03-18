@@ -1,0 +1,74 @@
+.anylinkmenu {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-top: 11px;
+    visibility: hidden;
+    font: normal 10px Verdana;
+    line-height: 23px;
+    z-index: 99999;
+    background: #efefef;
+    width: 230px;
+}
+
+    .anylinkmenu ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+        .anylinkmenu ul li a {
+            width: 100%;
+            display: block;
+            color: #333333;
+            border-bottom: 1px solid #cccccc;
+            padding: 2px 0px;
+            text-decoration: none;
+            font-weight: normal;
+            text-indent: 14px;
+        }
+
+    .anylinkmenu a:hover {
+        background: #cccccc;
+        color: #333333;
+        text-decoration: none;
+    }
+
+.anylinkmenucols li {
+    padding-bottom: 3px;
+}
+
+.anylinkmenucols .column {
+    float: left;
+    padding: 3px 8px;
+    margin-right: 5px;
+    background: #E0E0E0;
+}
+
+    .anylinkmenucols .column ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+.menuanchorclass {
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.menuanchorclass1 {
+    display: inline-block;
+    font-family: "Roboto",sans-serif;
+    font-size: 11px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.anylinkshadow {
+    height: 0 !important;
+}
